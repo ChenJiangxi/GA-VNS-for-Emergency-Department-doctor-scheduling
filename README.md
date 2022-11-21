@@ -30,8 +30,10 @@ Hybrid genetic algorithm of variable neighborhood search heuristic algorithm, to
 
 - Goal: Aim to minimize all doctors in a week (including the total number of hours on secondment plus the cost of secondment). Ask for each doctor's daily commute time.
 
-###Algrithm
-![image](https://user-images.githubusercontent.com/75166126/203094367-89065b47-4862-4ba3-8f1d-55a28229f99b.png)
+### Algrithm
+
+![image](https://user-images.githubusercontent.com/75166126/203094367-89065b47-4862-4ba3-8f1d-55a28229f99b.png)\\
+
 ![image](https://user-images.githubusercontent.com/75166126/203094432-47308435-4917-477c-b213-58187a50abdc.png)
 
 
