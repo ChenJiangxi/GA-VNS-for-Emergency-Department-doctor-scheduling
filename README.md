@@ -12,9 +12,9 @@ Hybrid genetic algorithm of variable neighborhood search heuristic algorithm, to
 
 - A doctor who is off duty and still has a patient on hand should return the patient to the front of the queue; In particular, Doctor A is off duty at the time of the patient's visit (required service time a, at which time a' has been performed), and the next doctor B is at work at the same position (service time for the patient is still a, requiring another A-A '), because of the nature of the exponential distribution.
 
-- Emergency physicians can only commute at the beginning or end of each session. The patient queue is subject to the first come, first served rule (FCFS), assuming that there are no patients who leave without being served. The whole system can be thought of as a $ 𝑀_𝑡 /𝑀 / 𝑝_𝑡$ queuing system (including $𝑝_𝑡$ needs to be determined by the doctor roaster).
+- Emergency physicians can only commute at the beginning or end of each session. The patient queue is subject to the first come, first served rule (FCFS), assuming that there are no patients who leave without being served. The whole system can be thought of as a $𝑀_𝑡$ /$𝑀$ / $𝑝_𝑡$ queuing system (including $𝑝_𝑡$ needs to be determined by the doctor roaster).
 
-- There are $N$ ($N = 10 $)doctors in the emergency department
+- There are $N$ ($N$ = 10)doctors in the emergency department
 
 - Each doctor is allowed a maximum of two day shifts, or 1 night shift 24 hours a day starting at midnight
 
@@ -30,10 +30,14 @@ Hybrid genetic algorithm of variable neighborhood search heuristic algorithm, to
 
 - Goal: Aim to minimize all doctors in a week (including the total number of hours on secondment plus the cost of secondment). Ask for each doctor's daily commute time.
 
+###Algrithm
+![image](https://user-images.githubusercontent.com/75166126/203094367-89065b47-4862-4ba3-8f1d-55a28229f99b.png)
+![image](https://user-images.githubusercontent.com/75166126/203094432-47308435-4917-477c-b213-58187a50abdc.png)
+
+
 ### Run
 If you want to run General-Variable-Neighborhood-Search, just run `GVNS.py`.
 If you want to run Hybrid genetic algorithm of variable neighborhood search heuristic algorithm, just run `GA-VNS.py`.
-
 
 
 ### Reference
