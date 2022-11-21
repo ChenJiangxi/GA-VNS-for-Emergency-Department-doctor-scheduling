@@ -4,7 +4,6 @@ Hybrid genetic algorithm and heuristic algorithm of variable neighborhood search
 ### Problem Statement
 
 
-
 - A day is divided into 24 hour-long periods on average. The defined starting point of a week is zero on Monday, assuming that no patients are in the system at this starting point.
 
 - The arrival rate of patients can be different in different time periods, but the arrival rate of patients in a time period remains unchanged. The patient arrival rate per hour t is $\lambda_t$
@@ -13,11 +12,11 @@ Hybrid genetic algorithm and heuristic algorithm of variable neighborhood search
 
 - A doctor who is off duty and still has a patient on hand should return the patient to the front of the queue; In particular, Doctor A is off duty at the time of the patient's visit (required service time a, at which time a' has been performed), and the next doctor B is at work at the same position (service time for the patient is still a, requiring another A-A '), because of the nature of the exponential distribution.
 
-- Emergency physicians can only commute at the beginning or end of each session. The patient queue is subject to the first come, first served rule (FCFS), assuming that there are no patients who leave without being served. The whole system can be thought of as a 𝑀 𝑡 𝑀 / 𝑝 𝑡 queuing system (including 𝑝 𝑡 needs to be determined by the doctor roaster).
+- Emergency physicians can only commute at the beginning or end of each session. The patient queue is subject to the first come, first served rule (FCFS), assuming that there are no patients who leave without being served. The whole system can be thought of as a $ 𝑀_𝑡 /𝑀 / 𝑝_𝑡$ queuing system (including $𝑝_𝑡$ needs to be determined by the doctor roaster).
 
-- There are N doctors in the emergency department
+- There are $N$ ($N = 10 $)doctors in the emergency department
 
-- Each doctor is allowed a maximum of two day shifts, ** or ** 1 night shift 24 hours a day starting at midnight
+- Each doctor is allowed a maximum of two day shifts, or 1 night shift 24 hours a day starting at midnight
 
 - Night shift: 0-7, during which doctors are not allowed to work. Night doctors are not allowed to work eight hours before the start of the night shift (after 17:00 the previous day) or on the day the night shift ends. A doctor must immediately rest for 24 hours straight after his night shift before he can be assigned a new job. A doctor works no more than two night shifts a week.
 
