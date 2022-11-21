@@ -1,5 +1,5 @@
 # GA-VNS-for-Emergency-Department-doctor-scheduling
-Hybrid genetic algorithm and heuristic algorithm of variable neighborhood search problem solve the problem of doctor scheduling in emergency department
+Hybrid genetic algorithm of variable neighborhood search heuristic algorithm, to solve the problem of doctor scheduling in emergency department
 
 ### Problem Statement
 
@@ -29,4 +29,28 @@ Hybrid genetic algorithm and heuristic algorithm of variable neighborhood search
 - If there are not enough doctors in the department, doctors from other departments can be seconded. A seconded doctor will incur a seconded cost c(per week)
 
 - Goal: Aim to minimize all doctors in a week (including the total number of hours on secondment plus the cost of secondment). Ask for each doctor's daily commute time.
+
+### Run
+If you want to run General-Variable-Neighborhood-Search, just run `GVNS.py`.
+If you want to run Hybrid genetic algorithm of variable neighborhood search heuristic algorithm, just run `GA-VNS.py`.
+
+
+
+### Reference
+
+[面向时变非稳态需求的急诊室医生排班研究](https://kns.cnki.net/kcms/detail/detail.aspx?dbcode=CMFD&dbname=CMFD201902&filename=1019654958.nh&uniplatform=NZKPT&v=DSlrDCTmUfzIz7pmyhH6xj0k9QmdCTdK2EXmoQM1WIwkK5Ij3KJTPypOeE3io9U1)
+
+[面向时变回诊患者需求的急诊周排班研究](https://qikan.chaoxing.com/detail_38502727e7500f26558dc607da1268812058ce404f0f743c1921b0a3ea255101fc1cf1fbb4666ae6cc3e0043d77d9129660df4a740caeb831655bd7de1a1a83db967f8aa9263830c1b455defb68836d9)
+
+[面向高度时变不确定患者需求的急诊医生周排班方法研究](https://kns.cnki.net/KXReader/Detail?invoice=vV2f2OU2fubYmzY1dzeh1gqr96XwVRKCtqX82ze0kNerMUhz5O1mms454CIEGK4UBqgRSBCBP1KO%2FBMUnvDYRn0SjWbkIpE5vMCj6R0%2FiAu5sW1ydUQL3cCbGKlZm4oqO%2BUvFURk2nkpzQt6wWCRZStWwYfcBDdK5uGnyLF8Q20%3D&DBCODE=CJFD&FileName=GYGC202003021&TABLEName=cjfdlast2020&nonce=95E3E6F47970486498D7321D29414898&uid=&TIMESTAMP=1665112938057)
+
+[面向时变不确定患者需求的急诊医疗运作资源管理研究](https://kreader.cnki.net/Kreader/CatalogViewPage.aspx?dbCode=cdmd&filename=1021674158.nh&tablename=CMFD202201&compose=&first=1&uid=WEEvREcwSlJHSldSdmVqelcxY2NSU0h4akd4WU11bXFSTTZTVDl0T2lzRT0=$9A4hF_YAuvQ5obgVAqNKPCYcEjKensW4ggI8Fm4gTkoUKaID8j8gFw!!)
+
+[Terminal appointment system design by non-stationary M(t)Ekc(t) queueing model and genetic algorithm](https://www.sciencedirect.com/science/article/pii/S0925527313003824)
+
+[A variable neighborhood search heuristic for periodic routing problems](https://www.sciencedirect.com/science/article/pii/S0377221707011034)
+
+[Physician Staffing for Emergency Departments with Time-Varying Demand](https://pubsonline.informs.org/doi/10.1287/ijoc.2017.0799)
+
+[遗传算法与变邻域搜索混合模型在护士排班中的应用](https://www.cnki.com.cn/Article/CJFDTotal-BJSC201506012.htm)
 
