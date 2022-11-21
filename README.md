@@ -32,9 +32,9 @@ Hybrid genetic algorithm of variable neighborhood search heuristic algorithm, to
 
 ### Algrithm
 
-![image](https://user-images.githubusercontent.com/75166126/203094367-89065b47-4862-4ba3-8f1d-55a28229f99b.png)\\
+![image](https://user-images.githubusercontent.com/75166126/203094367-89065b47-4862-4ba3-8f1d-55a28229f99b.png)
 
-![image](https://user-images.githubusercontent.com/75166126/203094432-47308435-4917-477c-b213-58187a50abdc.png)
+![image](https://user-images.githubusercontent.com/75166126/203096341-35407724-0d7e-4a92-9671-29236e781033.png)
 
 
 ### Run
