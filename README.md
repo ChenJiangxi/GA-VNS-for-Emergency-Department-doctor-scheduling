@@ -7,9 +7,9 @@ Hybrid genetic algorithm and heuristic algorithm of variable neighborhood search
 
 - A day is divided into 24 hour-long periods on average. The defined starting point of a week is zero on Monday, assuming that no patients are in the system at this starting point.
 
-- The arrival rate of patients can be different in different time periods, but the arrival rate of patients in a time period remains unchanged. The patient ** arrival rate ** per hour t is $\lambda_t$
+- The arrival rate of patients can be different in different time periods, but the arrival rate of patients in a time period remains unchanged. The patient arrival rate per hour t is $\lambda_t$
 
-- ** Service rate ** for each doctor is constant and all are $\mu$
+- Service rate for each doctor is constant and all are $\mu$
 
 - A doctor who is off duty and still has a patient on hand should return the patient to the front of the queue; In particular, Doctor A is off duty at the time of the patient's visit (required service time a, at which time a' has been performed), and the next doctor B is at work at the same position (service time for the patient is still a, requiring another A-A '), because of the nature of the exponential distribution.
 
